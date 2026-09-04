@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abdulrasheed Ibrahim</title>
+    <link>https://abdull.dev/</link>
+    <description>Writing on CPython internals, systems, and things I build.</description>
+    <language>en</language>
+    <atom:link href="https://abdull.dev/index.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fixing Bugs in CPython #1: A Use-After-Free in Context.__eq__</title>
+      <link>https://abdull.dev/posts/fixing-cpython-bugs-1-use-after-free-context-eq.html</link>
+      <guid isPermaLink="true">https://abdull.dev/posts/fixing-cpython-bugs-1-use-after-free-context-eq.html</guid>
+      <pubDate>Fri, 04 Sep 2026 09:34:32 +0100</pubDate>
+      <description>How comparing two contextvars.Context objects could crash the Python interpreter, and how the fix works. First in a series for anyone who wants to understand the CPython codebase or make their first contribution to it.</description>
+    </item>
+  </channel>
+</rss>

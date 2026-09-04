@@ -153,7 +153,16 @@ footer {
 footer a { color: var(--muted); margin-right: 1rem; }
 footer a:hover { color: var(--ink); }
 
+img { max-width: 100%; height: auto; }
+
+figure { margin: 0 0 1.5rem; }
+
+a, code { overflow-wrap: break-word; }
+
 @media (max-width: 480px) {
   html { font-size: 16px; }
-  nav a { margin-left: 0.9rem; }
+  body { padding: 1.5rem 1rem 3.5rem; }
+  header.site { row-gap: 0.35rem; }
+  nav a { margin-left: 0; margin-right: 0.9rem; }
+  pre { font-size: 0.85rem; padding: 0.8rem 0.9rem; }
 }
